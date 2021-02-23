@@ -7,6 +7,7 @@ public class SingletonTest8 {
 		Singleton instance_2 = Singleton.INSTANCE;
 		
 		System.out.println(instance_1 == instance_2);//true
+
 	}
 }
 
