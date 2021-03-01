@@ -10,8 +10,8 @@ public class SingletonTest2 {
 		Singleton instance_2 = Singleton.getInstance();
 		System.out.println(instance_1 == instance_2);// true
 		
-		//Singleton instance_3 = (Singleton) Class.forName("com.qianxun.DesginPatten.singleton.type2.Singleton").newInstance();
-		//Singleton instance_4 = (Singleton) Class.forName("com.qianxun.DesginPatten.singleton.type2.Singleton").newInstance();
+		//Singleton instance_3 = (Singleton) Class.forName("com.qianxun.desginpatten.singleton.type2.Singleton").newInstance();
+		//Singleton instance_4 = (Singleton) Class.forName("com.qianxun.desginpatten.singleton.type2.Singleton").newInstance();
 		Class object = Singleton.class;
 		Constructor constructor = object.getDeclaredConstructor();
         constructor.setAccessible(true);
